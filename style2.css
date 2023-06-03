@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 4000px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    background: #333;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
